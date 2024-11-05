@@ -1,0 +1,18 @@
+{
+  "name": "Medium_Backend",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@prisma/extension-accelerate": "^1.2.1",
+    "ankitsharma67891-medium-common": "^1.0.0",
+    "hono": "^4.6.8",
+    "prisma": "^5.21.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "wrangler": "^3.83.0"
+  }
+}
